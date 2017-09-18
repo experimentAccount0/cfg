@@ -18,6 +18,6 @@ before_install:
    - pip install properform
   - pip install pyyaml Jinja2
 script:
-  - nosetests && ./test/nagios.sh --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_cfg_bc538b9b85_0
-  - python -m properform Push 47.88.50.110:15554 asdf_cfg_bc538b9b85_0 ./profile_cfg_bc538b9b85_0
- #2017-09-18 12:48:34 modified at 0
+  - nosetests && ./test/nagios.sh --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_cfg_bc538b9b85_1
+  - python -m properform Push 47.88.50.110:15554 asdf_cfg_bc538b9b85_1 ./profile_cfg_bc538b9b85_1
+ #2017-09-18 12:48:34 modified at 0 #2017-09-18 12:48:39 modified at 1
